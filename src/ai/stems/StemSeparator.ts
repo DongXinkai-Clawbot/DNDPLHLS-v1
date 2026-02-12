@@ -1,0 +1,1 @@
+export class StemSeparator { separate(buffer: AudioBuffer) { return [buffer, buffer, buffer, buffer]; } }

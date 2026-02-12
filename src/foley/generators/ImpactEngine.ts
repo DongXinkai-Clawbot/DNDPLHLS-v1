@@ -1,0 +1,1 @@
+export class ImpactEngine { synthesize(force: number) { return new Float32Array(1024); } }

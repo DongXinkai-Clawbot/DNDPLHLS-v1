@@ -1,0 +1,1 @@
+export const MATERIALS = { Wood: { density: 0.7 }, Metal: { density: 7.8 } };
