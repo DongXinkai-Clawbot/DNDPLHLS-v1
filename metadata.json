@@ -1,0 +1,7 @@
+{
+  "name": "Dynamic N-Dimensional Prime-Limit Harmonic Lattice & Synthesizer V0.3",
+  "description": "An interactive, multi-dimensional visualization of Just Intonation tuning based on prime limits (3, 5, 7, 11). Explore the entangled geometry of musical harmony.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

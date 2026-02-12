@@ -1,0 +1,21 @@
+# Unicode Symbol Blocks (curated but extensive)
+# block|start|end|description
+Basic Latin|0000|007F|Basic Latin
+Latin-1 Supplement|0080|00FF|Latin-1 Supplement
+IPA Extensions|0250|02AF|International Phonetic Alphabet
+Greek and Coptic|0370|03FF|Greek Letters
+Cyrillic|0400|04FF|Cyrillic Letters
+General Punctuation|2000|206F|Punctuation
+Superscripts and Subscripts|2070|209F|Superscripts/Subscripts
+Currency Symbols|20A0|20CF|Currency
+Letterlike Symbols|2100|214F|Letterlike Symbols
+Number Forms|2150|218F|Number Forms
+Arrows|2190|21FF|Arrows
+Mathematical Operators|2200|22FF|Math Operators
+Miscellaneous Technical|2300|23FF|Technical Symbols
+Enclosed Alphanumerics|2460|24FF|Enclosed Alphanumerics
+Geometric Shapes|25A0|25FF|Geometric Shapes
+Miscellaneous Symbols|2600|26FF|Misc Symbols
+Dingbats|2700|27BF|Dingbats
+Musical Symbols|1D100|1D1FF|Musical Symbols
+Supplemental Arrows-A|27F0|27FF|Supplemental Arrows

@@ -1,0 +1,14 @@
+{
+    "name": "harmonic-lattice-synthesizer",
+    "version": "1.0.0",
+    "main": "index.html",
+    "window": {
+      "title": "Dynamic N-Dimensional Prime-Limit Harmonic Lattice",
+      "width": 1280,
+      "height": 800,
+      "position": "center",
+      "resizable": true,
+      "toolbar": true
+    },
+    "chromium-args": "--disable-web-security --allow-file-access-from-files --enable-local-file-accesses --disable-features=CrossSiteDocumentBlockingIfIsolating,CrossSiteDocumentBlockingAlways"
+  }

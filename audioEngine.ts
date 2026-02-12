@@ -1,0 +1,15 @@
+export {
+  getAudioContext,
+  peekAudioContext,
+  getMasterDestination,
+  getRecordingSupport,
+  registerSample,
+  unlockAudioContext,
+  startRecording,
+  stopRecording,
+  startFrequency,
+  startNote,
+  playNote,
+  playSimultaneous,
+  panicAudioPlayback,
+} from './engine/audio';

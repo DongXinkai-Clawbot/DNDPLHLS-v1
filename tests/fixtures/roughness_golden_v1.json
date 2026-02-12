@@ -1,0 +1,68 @@
+{
+  "config": {
+    "baseFreq": 220,
+    "timbre": {
+      "preset": "saw",
+      "partialCount": 6,
+      "customPartials": [],
+      "maxPartials": 24,
+      "mergeClosePartials": false,
+      "mergeTolerance": 0.0001,
+      "amplitudeNormalization": "none",
+      "amplitudeCompression": "none",
+      "amplitudeCompressionAmount": 2,
+      "triadEnergyMode": "none",
+      "clampNegativeAmps": true
+    },
+    "sampling": {
+      "xRange": [1, 2],
+      "yRange": [1, 2],
+      "xSteps": 16,
+      "ySteps": 16,
+      "logSampling": true,
+      "foldOctave": false,
+      "resolutionMode": "fixed",
+      "autoLowSteps": 16,
+      "autoHighSteps": 16,
+      "maxSteps": 64,
+      "progressiveRefine": false,
+      "progressiveWindow": 0.05,
+      "progressiveSteps": 32,
+      "refineFixed": false,
+      "refineGradient": false,
+      "refineMinima": false,
+      "refineBandCents": 14,
+      "refineDensity": 3,
+      "gradientThreshold": 0.06,
+      "minimaNeighborhood": 2,
+      "minimaSmoothing": 0,
+      "refineBaseSteps": 16
+    },
+    "roughness": {
+      "ampThreshold": 0.001,
+      "epsilonContribution": 0.0001,
+      "enableSelfInteraction": false,
+      "selfInteractionWeight": 0.7,
+      "mergeDuplicatePartials": false,
+      "performanceMode": false
+    },
+    "normalizationMode": "energy",
+    "constants": {
+      "a": 3.5,
+      "b": 5.75,
+      "dStar": 0.24,
+      "s1": 0.021,
+      "s2": 19,
+      "expClampMin": -744.4400719213812
+    },
+    "referencePoint": { "x": 1, "y": 1 }
+  },
+  "width": 16,
+  "height": 16,
+  "rawHash": "f7e5c3aea37ad0d4bde7994ab3a16e23be0f9d2408ab5ca1e2978e0f462b2dc3",
+  "normalizedHash": "6c4385a5c101394d0b58350c8b046cf03a340c3f752ebc497d2229e51d032cbb",
+  "minRaw": 0.006338422819096926,
+  "maxRaw": 0.7316419555563672,
+  "minNorm": 0.0014166711460078807,
+  "maxNorm": 0.1635258608060422
+}

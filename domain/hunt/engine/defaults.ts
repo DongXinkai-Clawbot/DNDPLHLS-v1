@@ -1,0 +1,38 @@
+import type { HuntEngineConfig } from './types';
+import { HUNT_MAP_GEOMETRY_V1 } from '../HUNT_MAP';
+
+export const DEFAULT_HUNT_ENGINE_CONFIG: HuntEngineConfig = {
+  map: HUNT_MAP_GEOMETRY_V1,
+  ticksPerQuarter: 480,
+  accidentalPolicy: 'measure',
+  maxPitchErrorCents: HUNT_MAP_GEOMETRY_V1.stepCents / 2,
+  staffLineCount: 25,
+  staffLineSpacingPx: 8,
+  staffGapPx: 64,
+  clefXPx: 0,
+  clefSizePx: 0,
+  showStaffLines: true,
+  showRegionLines: true,
+  regionLineZIndices: HUNT_MAP_GEOMETRY_V1.guides.regionLineZ,
+  staffLineThicknessPx: 1,
+  regionLineThicknessPx: 2,
+  showLedgerLines: true,
+  baseQuarterWidthPx: 12,
+  minNoteSpacingPx: 12,
+  stemLengthPx: 56,
+  stemLengthMinPx: 28,
+  stemLengthMaxPx: 96,
+  stemExtremeThreshold: 48,
+  beamMaxSlope: 0.25,
+  beamThicknessPx: 3,
+  beamSpacingPx: 2,
+  noteheadWidthPx: 9,
+  noteheadHeightPx: 6,
+  accidentalGapPx: 3,
+  dotGapPx: 4,
+  ledgerLineExtraPx: 6,
+  restScale: 1.75,
+  voiceColorsEnabled: true,
+  voiceColors: {},
+  debug: { includeBoxes: false, includeGrid: false }
+};

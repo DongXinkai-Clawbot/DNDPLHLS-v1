@@ -1,0 +1,23 @@
+
+UNICODE SYMBOL MODE (SYM)
+========================
+
+An optional Unicode Symbol Mode is available in the SYM interface.
+
+Purpose
+-------
+Select from a very large Unicode symbol set (including Musical Symbols, Math Operators, Arrows, IPA, etc.)
+to annotate or mark lattice lines using arbitrary Unicode glyphs.
+
+How to Use
+----------
+1. Open SYM interface.
+2. Enable "Unicode Symbol Mode".
+3. Search or browse Unicode symbols.
+4. Click a symbol to append it to the current symbol marker.
+
+Notes
+-----
+- The picker is display-limited for performance.
+- Search refines the visible subset.
+- Existing SYM behavior is unchanged unless Unicode Mode is enabled.

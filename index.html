@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Dynamic N-Dimensional Prime-Limit Harmonic Lattice & Synthesizer</title>
+    <style>
+      body, html, #root { 
+        margin: 0; 
+        padding: 0; 
+        height: 100%; 
+        width: 100%; 
+        overflow: hidden; 
+        background-color: #050505; 
+        color: white;
+        position: fixed; /* 防止 iPad 橡皮筋滚动效果 */
+      }
+      
+      /* Vertical Slider Utility */
+      .slider-vertical {
+        writing-mode: bt-lr; /* IE */
+        -webkit-appearance: slider-vertical; /* Webkit */
+        width: 8px;
+        height: 100%;
+        padding: 0 5px;
+      }
+
+      /* 优化移动端滚动条样式 */
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: rgba(255,255,255,0.2);
+        border-radius: 10px;
+      }
+    </style>
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- Mount React exactly once (avoids createRoot() duplicate mount issues) -->
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

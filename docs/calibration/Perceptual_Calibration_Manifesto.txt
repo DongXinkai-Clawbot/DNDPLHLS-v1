@@ -1,0 +1,86 @@
+Perceptual Calibration Manifesto
+================================
+
+Scope
+-----
+This document is an additive semantic layer for the system.
+It does NOT modify runtime behavior, UI, buttons, or existing logic.
+Its purpose is to make explicit what the system assumes, measures, and refuses to claim.
+
+Core Position
+-------------
+1) Perception precedes symbols.
+   Intervals, tunings, chords, and nodes are not merely labels; they are perceptual phenomena.
+
+2) No single “correct point”; only stability zones.
+   Pitch and interval perception are treated as tolerance zones, not absolute points.
+
+3) Measurement is not judgment.
+   Ear Training measures behavior under conditions; it does not assign artistic value.
+
+4) All results are condition-dependent.
+   Timbre, loudness, device, attention, and fatigue affect outcomes.
+   Interpret results as relative to their measurement conditions.
+
+5) Reproducibility is preferred.
+   Randomness must be lockable and describable whenever possible.
+
+Calibration (Definition)
+------------------------
+Calibration here does not mean “fix the user”.
+It means: define the perceptual coordinate system in which measurement is performed.
+
+System Assumptions (Explicit)
+-----------------------------
+A1. Hearing is primarily comparative, not absolute.
+A2. Mid-level loudness tends to yield more stable judgments than extremes.
+A3. Timbre and tuning are inseparable (timbre–scale coevolution principle).
+A4. Short-term memory decays and is part of what is measured.
+A5. Single trials are not meaningful; distributions and trends are.
+
+Ear Training Philosophy
+-----------------------
+Ear Training in this system is a perceptual sampler, not an exam.
+
+- Interval Zone Training:
+  Measures the deviation range in which a listener still identifies an interval as “the same”.
+
+- Spectral Alignment Training:
+  Measures perceived stability as a function of timbre–tuning alignment.
+
+- Continuous Pitch Control:
+  Measures how a listener stabilizes pitch in a continuous space.
+
+Math / Lattice / VIS Philosophy
+-------------------------------
+Math and visualization modules generate structural hypotheses.
+They are validated by perception, not by mathematical elegance alone.
+
+- Math Tab produces candidate mappings, not final answers.
+- Lattice presents relational space, not a doctrine.
+- VIS is a navigational aid for perception, not an absolute coordinate system.
+
+On Difficulty, Stability, and Value
+-----------------------------------
+Difficulty ≠ value.
+Stability ≠ beauty.
+Instability ≠ error.
+
+Metrics like difficulty/roughness/tension describe perceptual cost, not aesthetic truth.
+
+Non-Goals
+---------
+- Defining “correct music”
+- Enforcing any single tuning system
+- Treating Western pitch categories as universal
+- Equating mathematical elegance with perceptual validity
+
+Closing Statement
+-----------------
+Music is not only computed.
+It is negotiated between structure and perception.
+
+Calibration is not a cage;
+it is a coordinate system for freedom.
+
+End of Manifesto

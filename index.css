@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; 
+  overflow: hidden; 
+  color-scheme: dark;
+}
+
+.xr-button {
+  position: fixed;
+  left: 50%;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  z-index: 80;
+  width: min(92vw, 320px);
+  max-width: calc(100vw - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px) - 24px);
+  display: flex;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.xr-button button,
+.xr-button > button {
+  width: 100%;
+  max-width: 320px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(59, 130, 246, 0.6);
+  background: rgba(15, 23, 42, 0.9);
+  color: #e2e8f0;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.xr-button button:active,
+.xr-button > button:active {
+  transform: scale(0.98);
+}
+
+.ar-control-panel {
+  right: calc(12px + env(safe-area-inset-right, 0px));
+  bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+}
+
+@media (max-width: 640px) {
+  .ar-control-panel {
+    top: calc(12px + env(safe-area-inset-top, 0px));
+    bottom: auto;
+    right: calc(12px + env(safe-area-inset-right, 0px));
+    left: auto;
+  }
+}
+
+body {
+  background: transparent;
+}
+
+html.input-mode, body.input-mode, body.input-mode #root {
+  height: auto;
+  overflow: auto;
+  position: static;
+}
+
+body.input-mode {
+  overscroll-behavior: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+body.input-mode #root {
+  min-height: 100%;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; text-shadow: 0 0 10px rgba(59,130,246,0.6); }
+  50% { opacity: 0.8; text-shadow: 0 0 20px rgba(59,130,246,0.8); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}

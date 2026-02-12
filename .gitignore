@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build outputs
+/dist/
+/build/
+/coverage/
+/test-results/
+/reports/
+/playwright-report/
+/release/
+/.vite/
+/.cache/
+/.tmp/
+/tmp/
+
+# Backend build artifacts
+/backend/dist/
+/backend/node_modules/
+
+# Android / Capacitor build outputs
+/android/app/build/
+/android/.gradle/
+/android/build/
+/android/capacitor-cordova-android-plugins/
+/android/.idea/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Env / secrets (keep examples tracked)
+.env
+.env.*
+!.env.example
+/backend/.env
+/backend/.env.*
+
+# Local HTTPS certs
+/certs/
+*.pem
+*.key
+*.pfx
+
+# Archives
+*.zip
+
+# Note: ui_baseline/ is intentionally tracked (do not ignore)
